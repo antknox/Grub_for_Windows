@@ -1,5 +1,9 @@
 #grub for windows
 
+[Grub](http://www.gnu.org/software/grub/)
+
+[Grub4DOS](http://sourceforge.net/projects/grub4dos/files/GRUB4DOS/)
+
 ##必要源文件
 
 		grldr
