@@ -1,16 +1,18 @@
 #grub for windows
 
+##必要源文件
+
 		grldr
 		grldr.mbr
 		grldr.exe
 
-##ini
+		ini
 
 ###XP
 
-grldr
+      grldr
 
-boot.ini>>
+      boot.ini>>
 ```ini
 [boot loader]
 [operating systems]
@@ -19,15 +21,15 @@ C:\grldr="Grub For DOS"
 
 ###Windows 7
 
-grldr.mbr
+      grldr.mbr
 
-boot.ini>
+      boot.ini>
 ```ini
 [boot loader]
 [operating systems]
 C:\grldr..mbr="Grub For DOS"
 ```
-##menu.lst
+      menu.lst
 ```lst
 timeout=5
 
