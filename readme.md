@@ -13,22 +13,23 @@
       grldr
 
       boot.ini>>
-```ini
-[boot loader]
-[operating systems]
-C:\grldr="Grub For DOS"
-```
+      ```ini
+      [boot loader]
+      [operating systems]
+      C:\grldr="Grub For DOS"
+      ```
 
 ###Windows 7
 
       grldr.mbr
 
       boot.ini>
-```ini
-[boot loader]
-[operating systems]
-C:\grldr..mbr="Grub For DOS"
-```
+      ```ini
+      [boot loader]
+      [operating systems]
+      C:\grldr..mbr="Grub For DOS"
+      ```
+      
       menu.lst
 ```lst
 timeout=5
